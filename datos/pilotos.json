@@ -1,0 +1,7 @@
+{"_id":3.0,"Nombre":"Toni","Atributos":{"Defensa":{"Escudo":1600.0,"Armadura":1900.0,"Estructura":2000.0},"Ataque":1100.0},"PilotoDe":["Golem","Sin","Typhoon"]}
+{"_id":7.0,"Nombre":"Salva","Atributos":{"Defensa":{"Escudo":2000.0,"Armadura":1900.0,"Estructura":1800.0},"Ataque":1200.0},"PilotoDe":["Megathron","Templest","Rupture","Heron"]}
+{"_id":2.0,"Nombre":"Kiko","Atributos":{"Defensa":{"Escudo":1500.0,"Armadura":2000.0,"Estructura":2000.0},"Ataque":1100.0},"PilotoDe":["Machariel","Redeemer","Muninn","Rokh","Omen","Raptor","Condor"]}
+{"_id":5.0,"Nombre":"Adri","Atributos":{"Defensa":{"Escudo":1600.0,"Armadura":2100.0,"Estructura":1800.0},"Ataque":1300.0},"PilotoDe":["Cruor","Legion","Daredevil","Magnate"]}
+{"_id":4.0,"Nombre":"Raul","Atributos":{"Defensa":{"Escudo":1400.0,"Armadura":1900.0,"Estructura":2300.0},"Ataque":1000.0},"PilotoDe":["Proteus","Osprey","Ishtar","Dramiel","Anathema"]}
+{"_id":1.0,"Nombre":"Miguel Angel","Edad":22.0,"Atributos":{"Defensa":{"Escudo":2500.0,"Armadura":1000.0,"Estructura":2000.0},"Ataque":1200.0},"PilotoDe":["Panther","Kronos","Paladin","Rattlesnake","Phantasm","Cerberus","Loki","Ares","Manticore"]}
+{"_id":6.0,"Nombre":"Marina","Atributos":{"Defensa":{"Escudo":1900.0,"Armadura":1700.0,"Estructura":2100.0},"Ataque":1000.0}}

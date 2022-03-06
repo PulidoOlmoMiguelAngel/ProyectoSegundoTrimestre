@@ -1,0 +1,42 @@
+-----------------------------Local-------------------------------
+Export::: ---- Exportamos desde la base de datos local a un archivo json.----
+
+mongoexport --collection=pilotos --out C:\users\alumno\Desktop\pilotos.json
+
+mongoexport --collection=frigate --out C:\users\alumno\Desktop\frigate.json
+
+mongoexport --collection=cruiser --out C:\users\alumno\Desktop\cruiser.json
+
+mongoexport --collection=battleship --out C:\users\alumno\Desktop\battleship.json
+
+
+Import::: ---- Importamos desde un archivo json a la base de datos local.----
+
+mongoimport --db test --collection pilotos --file C:\users\alumno\Desktop\pilotos.json
+
+mongoimport --db test --collection frigate --file C:\users\alumno\Desktop\frigate.json
+
+mongoimport --db test --collection cruiser --file C:\users\alumno\Desktop\cruiser.json
+
+mongoimport --db test --collection battleship --file C:\users\alumno\Desktop\battleship.json
+
+----------------------------------Online---------------------------------
+Import::: ---- Importamos desde un archivo json local a la base de datos Atlas.----
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection pilotos --type json --file C:\users\alumno\Desktop\pilotos.json
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection frigate --type json --file C:\users\alumno\Desktop\frigate.json
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection cruiser --type json --file C:\users\alumno\Desktop\cruiser.json
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection battleship --type json --file C:\users\alumno\Desktop\battleship.json
+
+Export::: ---- Exportamos una base de datos desde Atlas a un archivo json.----
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection pilotos --type json --out C:\Users\alumno\Documents\GradoSuperior\BasedeDatos\Adolfo\Proyecto_Segundo_Trimestre_Pulido\datos\pilotos.json
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection frigate --type json --out C:\Users\alumno\Documents\GradoSuperior\BasedeDatos\Adolfo\Proyecto_Segundo_Trimestre_Pulido\datos\frigate.json
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection cruiser --type json --out C:\Users\alumno\Documents\GradoSuperior\BasedeDatos\Adolfo\Proyecto_Segundo_Trimestre_Pulido\datos\cruiser.json
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.00qlt.mongodb.net/ProyectoSegudoTrimestre --collection battleship --type json --out C:\Users\alumno\Documents\GradoSuperior\BasedeDatos\Adolfo\Proyecto_Segundo_Trimestre_Pulido\datos\battleship.json
